@@ -4,7 +4,7 @@
 [![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace_Face-yellow.svg)](https://huggingface.co/datasets/ekacare/denoising-impact-evaluation-dataset)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-![Paper Thumbnail](images/paper-thumbnail.png)
+![Paper Thumbnail](denoising-thumbnail.png)
 
 > **TL;DR:** Our research reveals that speech enhancement preprocessing **degrades** ASR performance across all modern models and noise conditions. Denoising hurts, it doesn't help!
 
