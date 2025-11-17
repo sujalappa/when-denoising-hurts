@@ -59,9 +59,9 @@ The comprehensive **[Denoising Impact Evaluation Dataset](https://huggingface.co
 ###  Universal Performance Degradation
 | Model | Background Noise | Short Noise | Gaussian Noise |
 |-------|------------------|-------------|----------------|
-| **Whisper** | +1.1% to +17.0% | +1.4% to +9.7% | +2.6% to +34.9% |
-| **Parakeet** | +1.3% to +5.9% | +1.7% to +3.3% | +2.8% to +11.9% |
-| **Gemini** | +1.5% to +5.0% | +1.9% to +3.1% | +3.2% to +46.6% |
+| **Whisper** | +3.2% to +17.0% | +3.2% to +9.6% | +11.6% to +34.9% |
+| **Parakeet** | +1.4% to +5.9% | +1.3% to +3.2% | +2.5% to +11.9% |
+| **Gemini** | +1.1% to +4.9% | +1.9% to +3.1% | +3.3% to +46.5% |
 
 *Table: ΔsemWER increase after denoising (positive = degradation)*
 
