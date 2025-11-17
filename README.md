@@ -16,10 +16,10 @@ Speech enhancement is widely believed to improve the performance of traditional 
 
 ## 🔗 Quick Links
 
-- **📄 Paper:** [arXiv Preprint](https://arxiv.org/abs/XXXX.XXXXX)
-- **📊 Dataset:** [Denoising Impact Evaluation Dataset](https://huggingface.co/datasets/ekacare/denoising-impact-evaluation-dataset)
-- **📝 Overleaf:** [Project Source](https://www.overleaf.com/project/6900e06c6e29489cf9cd0115#cite.classical_asr)
-- **⚡ Evaluation Kit:** [KARMA OpenMedEvalKit](https://github.com/eka-care/KARMA-OpenMedEvalKit)
+- **Paper:** [arXiv Preprint](https://arxiv.org/abs/XXXX.XXXXX)
+- **Dataset:** [Denoising Impact Evaluation Dataset](https://huggingface.co/datasets/ekacare/denoising-impact-evaluation-dataset)
+- **Overleaf:** [Project Source](https://www.overleaf.com/project/6900e06c6e29489cf9cd0115#cite.classical_asr)
+- **Evaluation Kit:** [KARMA OpenMedEvalKit](https://github.com/eka-care/KARMA-OpenMedEvalKit)
 
 ##  Dataset Pipeline
 
@@ -67,4 +67,18 @@ The comprehensive **[Denoising Impact Evaluation Dataset](https://huggingface.co
 
 
 **Key Insight:** Modern ASR models possess sufficient internal noise robustness. Traditional enhancement removes acoustic features.
+### Citation
+@article{chondhekar2025denoising,
+
+  title={When Denoising Hurts: A Systematic Study of Speech Enhancement Effects on Modern Medical ASR Systems},
+  
+  author={Chondhekar Sujal, Rana Anushree, Murukuri Vasanth , SN Sanjana, Vasani Rushabh, Pandia Karthik, Badami Rajshree and Gulati Sankalp},
+  
+  journal={arXiv preprint},
+  
+  year={2025},
+  
+  note={Preprint}
+}
+
 
