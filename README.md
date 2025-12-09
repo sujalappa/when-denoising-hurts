@@ -10,7 +10,7 @@
 
 ## 📄 Abstract
 
-Speech enhancement is widely believed to improve the performance of traditional automatic speech recognition (ASR) in noisy environments. However, this assumption is yet to be rigorously tested on modern large-scale ASR models trained on diverse, noisy data. We present a systematic evaluation of MetricGAN-plus-voicebank denoising on three state-of-the-art ASR systems—OpenAI Whisper, NVIDIA Parakeet, and Google Gemini Flash 2.0—using 500 medical speech recordings under nine noise conditions. 
+Speech enhancement is widely believed to improve the performance of traditional automatic speech recognition (ASR) in noisy environments. However, this assumption is yet to be rigorously tested on modern large-scale ASR models trained on diverse, noisy data. We present a systematic evaluation of MetricGAN-plus-voicebank denoising on four state-of-the-art ASR systems—OpenAI Whisper, NVIDIA Parakeet, Google Gemini Flash 2.0, and Parrotlet-a-en-5b using 500 medical speech recordings under nine noise conditions. 
 
 **Our surprising finding:** Speech enhancement preprocessing degrades ASR performance across all noise conditions and models. Original noisy audio achieves lower semantic WER than enhanced audio in all 30 tested configurations, with degradations ranging from 1.1% to 46.6% absolute semWER increase.
 
@@ -47,12 +47,13 @@ The comprehensive **[Denoising Impact Evaluation Dataset](https://huggingface.co
 - **OpenAI Whisper Large-v3**
 - **NVIDIA Parakeet-TDT-1.1B**
 - **Google Gemini Flash 2.0**
+- **Parrotlet-a-en-5b**
 
 ### Evaluation Protocol
-- **30,000 total transcriptions** (3 models × 10,000 transcriptions each)
+- **40,000 total transcriptions** (4 models × 10,000 transcriptions each)
 - Dual transcription: Noisy audio + Enhanced audio for each condition
 - Evaluation using **[KARMA OpenMedEvalKit](https://github.com/eka-care/KARMA-OpenMedEvalKit)**
-- Metrics: Word Error Rate (WER), Character Error Rate (CER), Semantic WER (semWER)
+- Metrics: Semantic WER (semWER)
 
 ## Key Findings
 
@@ -62,6 +63,7 @@ The comprehensive **[Denoising Impact Evaluation Dataset](https://huggingface.co
 | **Whisper** | +3.2% to +17.0% | +3.2% to +9.6% | +11.6% to +34.9% |
 | **Parakeet** | +1.4% to +5.9% | +1.3% to +3.2% | +2.5% to +11.9% |
 | **Gemini** | +1.1% to +4.9% | +1.9% to +3.1% | +3.3% to +46.5% |
+| **Parrotlet** | +2.5% to +5.0% | +1.8% to +3.4% | +3.4% to +14.7% |
 
 *Table: ΔsemWER increase after denoising (positive = degradation)*
 
@@ -72,7 +74,7 @@ The comprehensive **[Denoising Impact Evaluation Dataset](https://huggingface.co
 
   title={When Denoising Hurts: A Systematic Study of Speech Enhancement Effects on Modern Medical ASR Systems},
   
-  author={Chondhekar Sujal, Rana Anushree, Murukuri Vasanth , SN Sanjana, Vasani Rushabh, Pandia Karthik, Badami Rajshree and Gulati Sankalp},
+  author={Chondhekar Sujal, Rana Anushree, Murukuri Vasanth , SN Sanjana, Vasani Rushabh, Pandia Karthik, Badami Rajshree, Katiyar Sulabh, and Gulati Sankalp},
   
   journal={arXiv preprint},
   
