@@ -1,6 +1,6 @@
 # When Denoising Hurts: A Systematic Study of Speech Enhancement Effects on Modern Medical ASR Systems
 
-[![arXiv](https://img.shields.io/badge/arXiv-When_Denoising_Hurts-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
+[![arXiv](https://img.shields.io/badge/arXiv-When_Denoising_Hurts-b31b1b.svg)](https://arxiv.org/abs/2512.17562)
 [![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace_Face-yellow.svg)](https://huggingface.co/datasets/ekacare/denoising-impact-evaluation-dataset)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -16,9 +16,8 @@ Speech enhancement is widely believed to improve the performance of traditional 
 
 ## 🔗 Quick Links
 
-- **Paper:** [arXiv Preprint](https://arxiv.org/abs/XXXX.XXXXX)
+- **Paper:** [arXiv Preprint](https://arxiv.org/abs/2512.17562)
 - **Dataset:** [Denoising Impact Evaluation Dataset](https://huggingface.co/datasets/ekacare/denoising-impact-evaluation-dataset)
-- **Overleaf:** [Project Source](https://www.overleaf.com/project/6900e06c6e29489cf9cd0115#cite.classical_asr)
 - **Evaluation Kit:** [KARMA OpenMedEvalKit](https://github.com/eka-care/KARMA-OpenMedEvalKit)
 
 ##  Dataset Pipeline
